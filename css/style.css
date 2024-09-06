@@ -1,0 +1,334 @@
+/********FIRST SECTION********/
+
+#slider {
+  margin: auto;
+  width: 95%;
+  height: 690px;
+  align-content: center;
+  text-align: center;
+  border-radius: 40px;
+}
+
+img,
+.video {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 3rem;
+}
+
+.activites img {
+  border-radius: 3rem;
+}
+
+.activites {
+  position: relative;
+}
+
+.activites h1 {
+  font-size: 3rem;
+  width: 70%;
+  margin: 0;
+}
+
+.activites h4 {
+  font-size: 1.5rem;
+}
+
+.text_overlay {
+  position: absolute;
+  top: 0; /* Début du conteneur */
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*********SECOND SECTION PREV VISITES*********/
+
+#prev_visites h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#prev_visites h5 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+#prev_visites {
+  padding: 0 6rem;
+}
+
+#prev_visites .text-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#prev_visites .texts {
+  flex: 1;
+}
+
+#card-activites {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.visite {
+  width: 20%; /* Assure que chaque div visite occupe un espace égal */
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out; /* Transition pour l'effet de zoom */
+}
+
+.visite img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  transition: transform 0.3s ease-in-out; /* Transition pour l'effet de zoom sur l'image */
+}
+
+.visite:hover {
+  transform: scale(1.05); /* Zoom sur la carte */
+}
+
+.visite:hover img {
+  transform: scale(1.1); /* Zoom sur l'image à l'intérieur de la carte */
+}
+
+.more_activites #card-activites {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 408px;
+}
+
+.more_activites #card-activites .visite {
+  width: 270px;
+}
+
+/* #prev_visites .card_content p {
+  margin-top: initial;
+} */
+.visite {
+  width: 20%; /* Assure que chaque div visite occupe un espace égal, ajustez le pourcentage si nécessaire */
+  box-sizing: border-box; /* Assure que le padding/border ne modifie pas la largeur */
+}
+
+.visite img {
+  height: 220px;
+  width: 100%; /* Assure que l'image occupe toute la largeur de son conteneur */
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.card_content {
+  display: flex;
+  gap: 1rem;
+}
+
+.card_content p {
+  font-size: 0.8rem;
+}
+
+.fi {
+  color: #18abc6;
+  margin-top: 15px;
+}
+
+.visite h3 {
+  margin-bottom: 2px;
+}
+
+/*********SECTION 3 QUIS AUTEM*********/
+
+.quis_autem {
+  padding: 6rem;
+}
+
+.quis_autem h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.quis_autem h5 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.text_quisautem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.block_border {
+  width: 50px;
+  height: 28px;
+  background-color: #18abc6;
+  border-radius: 0.6rem;
+}
+
+.block_border h4 {
+  text-align: center;
+  line-height: 1.5;
+  color: #ffff;
+}
+
+.quis_autem h3 {
+  font-size: 1.6rem;
+}
+
+.quis_autem p {
+  width: 55%;
+}
+
+.container_quisautem {
+  display: flex;
+}
+
+.card_picture img {
+  border-radius: 2.5rem;
+}
+
+.more_activites h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.container_text_activites {
+  display: flex;
+}
+
+.text-container p {
+  flex: 1;
+  margin-top: 2.5rem;
+  font-size: 0.8rem;
+}
+
+/**********SECTION 4 MORE ACTIVITES**********/
+
+.more_activites .text-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.more_activites .texts {
+  flex: 1;
+}
+
+.more_activites {
+  padding: 0 6rem 5rem;
+}
+
+/*********SECTION 5**********/
+
+.sect_quis_autem {
+  padding: 0 6rem;
+}
+
+.sect_quis_autem h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.sect_quis_autem h5 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.arrow_center {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.text_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+/********SECTION 6**********/
+.sect_totam_rem {
+  padding: 0 6rem;
+  margin-bottom: 10rem;
+}
+
+.sect_totam_rem img {
+  border-radius: 2rem;
+  width: 100%;
+  height: 480px;
+}
+
+/********FOOTER**********/
+footer {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  padding: 0 6rem;
+}
+
+footer p {
+  width: 250px;
+  margin-top: 2rem;
+}
+
+.round {
+  background-color: #18abc6;
+  width: 32px;
+  height: 32px;
+  border-radius: 3rem;
+}
+
+.round_block {
+  display: flex;
+  gap: 1rem;
+}
+
+footer ul {
+  display: inline;
+}
+
+ul li {
+  list-style: none;
+  color: inherit;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer li {
+  line-height: 3;
+}
+
+footer img {
+  margin-left: -20px;
+}
+
+footer h5 {
+  margin-bottom: -20px;
+}
+
+/* .full_picture {
+  margin: -30px;
+} */
+
+hr {
+  width: 83%;
+}

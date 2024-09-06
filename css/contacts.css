@@ -1,0 +1,83 @@
+.form h1 {
+  font-size: 3rem;
+  width: 65%;
+}
+
+.form .fi-sr-envelope {
+  color: inherit;
+}
+
+.form a {
+  color: inherit;
+  text-decoration: none;
+  color: #18abc6;
+  font-weight: bold;
+}
+
+.form span {
+  color: #18abc6;
+}
+
+.form .fi-br-phone-flip {
+  margin: 0;
+  transform: scaleX(-1);
+  padding-right: 0.5rem;
+}
+.form .text_location {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.text_location h5 {
+  width: 33%;
+}
+
+.text_location .fi-sr-marker {
+  margin-top: 2rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  padding: 0 6rem;
+}
+
+/* .btn_add_container {
+  width: 82%;
+} */
+
+/* .contacts {
+  height: 527px;
+} */
+
+.add_other {
+  background-color: #f5feff;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.contact-form input,
+textarea {
+  border: none;
+  border-bottom: 2px solid #00c2d1;
+  background-color: transparent;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+}
+
+.mail_contact {
+  margin-bottom: 2rem;
+}
+.icon-container {
+  margin-top: 5rem;
+}
+
+.icon-container .fi {
+  font-size: 2rem;
+}
+
+.enough {
+  margin-top: 2rem;
+}

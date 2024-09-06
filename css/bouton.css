@@ -1,0 +1,75 @@
+/*******BOUTONS********/
+
+.btn_signup {
+  background-color: #18abc6;
+  color: #ffff;
+  border-radius: 0.5rem;
+  padding: 10px 20px; /* Ajoute du padding pour augmenter la taille des boutons */
+}
+
+.btn_signup:hover {
+  background-color: #139aa8;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05); /* Agrandit légèrement le bouton au survol */
+}
+
+.btn_login {
+  padding: 10px 40px;
+  background: none;
+}
+
+.btn_login,
+.btn_signup {
+  border: none; /* Retire la bordure par défaut */
+  cursor: pointer; /* Change le curseur pour pointer sur hover */
+}
+
+.btn {
+  width: 200px;
+  height: 48px;
+  background-color: #18abc6;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+  color: #ffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.btn_hidden {
+  background: none;
+  color: inherit;
+  border: solid black 1px;
+}
+
+.btn_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_position {
+  display: flex;
+  background-color: #8ae7f8;
+  border: 2px solid #18abc6;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.btn_add {
+  background-color: #22c4e2;
+  color: #ffff;
+  border-radius: 0.5rem;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 0.8rem;
+}
+
+.btn_add .fi {
+  color: white;
+}
+.white {
+  background-color: white;
+  color: #8ae7f8;
+  border: 2px solid;
+}

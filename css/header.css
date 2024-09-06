@@ -1,0 +1,36 @@
+/**********HEADER**********/
+.nav_bar ul {
+  display: flex;
+  gap: 5rem;
+}
+
+.nav_bar li {
+  display: inline;
+}
+
+.nav_bar a {
+  text-decoration: none; /* Enlève le soulignement des liens */
+  color: inherit; /* Garde la couleur du texte héritée */
+}
+
+#logo img {
+  width: 200px;
+  height: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 20px 0px;
+}
+
+#logo {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+#logo img {
+  height: 80px;
+}
